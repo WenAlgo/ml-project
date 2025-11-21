@@ -18,7 +18,3 @@ class TrocrRecognizer:
         preds = self.processor.batch_decode(generated_ids, skip_special_tokens=True)
         return preds[0]
 
-if __name__ == '__main__':
-    r = TrocrRecognizer()
-    from PIL import Image
-    print(r.recognize(Image.open('example_crop.jpg')))

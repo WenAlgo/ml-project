@@ -17,11 +17,12 @@ craft-text-detector==0.3.4
 
 # Image Processing
 Pillow==10.2.0
-opencv-contrib-python==4.5.5.62
+opencv-contrib-python==4.7.0.72
 
 # Metrics & Utilities 
 jiwer==3.0.3
 editdistance==0.6.2
+wordfreq==3.0.3
 numpy==1.26.4
 
 # Dataset Loader
